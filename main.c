@@ -21,7 +21,7 @@ FILE *arquivo = fopen("saida.txt", "w");
 
     // Escrevendo a matriz no arquivo
     for (int i = 0; i <= precision; i++) {
-        fprintf(arquivo, "%f %f %f \n", Lut[i][0], Lut[i][1], Lut[i][2]);
+        fprintf(arquivo, "%f %f \n", Lut[i][1], Lut[i][2]);
     }
 
     // Fechando o arquivo
